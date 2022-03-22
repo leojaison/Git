@@ -7,9 +7,15 @@ public class Sample {
 
 	}
 
+	private void id() {
+		System.out.println("2580");
+
+	}
+
 	public static void main(String[] args) {
 		Sample a = new Sample();
 		a.name();
+		a.id();
 	}
 
 }
